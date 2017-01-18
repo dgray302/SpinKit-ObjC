@@ -44,9 +44,9 @@
         CAKeyframeAnimation *anim = [CAKeyframeAnimation animationWithKeyPath:@"transform"];
         anim.removedOnCompletion = NO;
         anim.repeatCount = HUGE_VALF;
-        anim.duration = 1.5;
-        anim.beginTime = beginTime + (0.25 * i);
-        anim.keyTimes = @[@(0.0), @(0.5), @(1.0)];
+        anim.duration = 0.6;
+        anim.beginTime = beginTime + (0.1 * i);
+        anim.keyTimes = @[@(0.0), @(0.2), @(0.4)];
         
         anim.timingFunctions = @[
             [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut],
