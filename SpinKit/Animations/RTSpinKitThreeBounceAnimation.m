@@ -35,11 +35,11 @@
     
     for (NSInteger i=0; i < 3; i+=1) {
         CALayer *circle = [CALayer layer];
-        circle.frame = CGRectMake(i * 3 * offset, size.height / 2, circleSize, circleSize);
+        circle.frame = CGRectMake(i * 3 * offset, i == 1 ? size.height / 2 - 8 : size.height / 2, circleSize, circleSize);
         circle.backgroundColor = color.CGColor;
         circle.anchorPoint = CGPointMake(0.5, 0.5);
         circle.cornerRadius = CGRectGetHeight(circle.bounds) * 0.5;
-        circle.transform = CATransform3DMakeScale(0.0, 0.0, 0.0);
+        circle.transform = CATransform3DMakeTranslation(0.0, 0.0, 0.0);
         
         CAKeyframeAnimation *anim = [CAKeyframeAnimation animationWithKeyPath:@"transform"];
         anim.removedOnCompletion = NO;
@@ -55,9 +55,9 @@
         ];
         
         anim.values = @[
-            [NSValue valueWithCATransform3D:CATransform3DMakeScale(0.0, 0.0, 0.0)],
-            [NSValue valueWithCATransform3D:CATransform3DMakeScale(1.0, 1.0, 0.0)],
-            [NSValue valueWithCATransform3D:CATransform3DMakeScale(0.0, 0.0, 0.0)]
+            [NSValue valueWithCATransform3D:CATransform3DMakeTranslation(0.0, 0.0, 0.0)],
+            [NSValue valueWithCATransform3D:CATransform3DMakeTranslation(0.0, 8.0, 0.0)],
+            [NSValue valueWithCATransform3D:CATransform3DMakeTranslation(0.0, 0.0, 0.0)]
         ];
         
         [layer addSublayer:circle];

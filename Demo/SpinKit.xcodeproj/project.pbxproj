@@ -22,7 +22,7 @@
 		F646197E1874EC8D00ED6B1B /* RTTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F646197D1874EC8D00ED6B1B /* RTTestViewController.m */; };
 		F646198218753E5200ED6B1B /* RTSpinKitView.m in Sources */ = {isa = PBXBuildFile; fileRef = F646198118753E5200ED6B1B /* RTSpinKitView.m */; };
 		F646198418753F2400ED6B1B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F646198318753F2400ED6B1B /* Images.xcassets */; };
-		F66970181BD2285000450708 /* LanchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F66970171BD2285000450708 /* LanchScreen.xib */; settings = {ASSET_TAGS = (); }; };
+		F66970181BD2285000450708 /* LanchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F66970171BD2285000450708 /* LanchScreen.xib */; };
 		F6BC23C219B972340055D239 /* RTSpinKit9CubeGridAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F6BC23A919B972340055D239 /* RTSpinKit9CubeGridAnimation.m */; };
 		F6BC23C319B972340055D239 /* RTSpinKitBounceAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F6BC23AB19B972340055D239 /* RTSpinKitBounceAnimation.m */; };
 		F6BC23C419B972340055D239 /* RTSpinKitChasingDotsAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F6BC23AD19B972340055D239 /* RTSpinKitChasingDotsAnimation.m */; };
@@ -302,7 +302,7 @@
 				ORGANIZATIONNAME = "Ramon Torres";
 				TargetAttributes = {
 					F64619461874E9FB00ED6B1B = {
-						DevelopmentTeam = S47GJ5WB9Z;
+						DevelopmentTeam = J42H46774Y;
 					};
 					F64619611874E9FC00ED6B1B = {
 						TestTargetID = F64619461874E9FB00ED6B1B;
@@ -480,10 +480,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = J42H46774Y;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SpinKit/SpinKit-Prefix.pch";
 				INFOPLIST_FILE = "SpinKit/SpinKit-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mdk.SpinKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
@@ -495,10 +497,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = J42H46774Y;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SpinKit/SpinKit-Prefix.pch";
 				INFOPLIST_FILE = "SpinKit/SpinKit-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mdk.SpinKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;

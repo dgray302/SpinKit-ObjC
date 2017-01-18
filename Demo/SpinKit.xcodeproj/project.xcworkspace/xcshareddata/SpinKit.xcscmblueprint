@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "800A50EBD11EE7E683CE054A0580CB89A80B1A51",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "81586CFD5071719E6A04E415418B6D2F9BA00D51" : 9223372036854775807,
+    "800A50EBD11EE7E683CE054A0580CB89A80B1A51" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A48FF7EC-2E41-46F1-8287-C04235FCD4BE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "81586CFD5071719E6A04E415418B6D2F9BA00D51" : "",
+    "800A50EBD11EE7E683CE054A0580CB89A80B1A51" : "SpinKit\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SpinKit",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Demo\/SpinKit.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/dgray302\/SpinKit-ObjC.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "800A50EBD11EE7E683CE054A0580CB89A80B1A51"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Parkarr15\/parkarr.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "81586CFD5071719E6A04E415418B6D2F9BA00D51"
+    }
+  ]
+}
