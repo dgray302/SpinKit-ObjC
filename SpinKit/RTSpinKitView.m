@@ -60,6 +60,11 @@ static const CGFloat kRTSpinKitViewDefaultSpinnerSize = 37.0;
     return [self initWithStyle:style color:color spinnerSize:kRTSpinKitViewDefaultSpinnerSize];
 }
 
+-(instancetype)initWithColor:(UIColor *)color {
+    return [self initWithStyle:RTSpinKitViewStyleThreeBounce color:color spinnerSize:kRTSpinKitViewDefaultSpinnerSize];
+}
+
+
 -(instancetype)initWithStyle:(RTSpinKitViewStyle)style color:(UIColor*)color spinnerSize:(CGFloat)spinnerSize {
     self = [super initWithFrame:CGRectMake(0.0, 0.0, spinnerSize, spinnerSize)];
     if (self) {

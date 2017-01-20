@@ -102,6 +102,7 @@ typedef NS_ENUM(NSInteger, RTSpinKitViewStyle) {
 -(instancetype)initWithStyle:(RTSpinKitViewStyle)style
                        color:(UIColor*)color;
 
+-(instancetype)initWithColor:(UIColor*)color;
 /**
  Initializes and returns an activity indicator object.
  
